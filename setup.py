@@ -19,11 +19,11 @@ CLASSIFIERS = [
 setup(
     author="Riccardo Forina",
     author_email="riccardo@forina.me",
-    maintainer="Riccardo Magliocchetti",
-    maintainer_email="riccardo.magliocchetti@gmail.com",
+    maintainer="Riccardo Magliocchetti, Alberto Vara",
+    maintainer_email="riccardo.magliocchetti@gmail.com, a.vara.1986@gmail.com",
     name='django-admin-bootstrapped',
     version='2.3.6',
-    description='A Bootstrap theme for Django Admin',
+    description='A Bootstrap theme for Django Admin for v 1.5',
     long_description=open(os.path.join(os.path.dirname(__file__), 'README.rst')).read(),
     url='https://github.com/django-admin-bootstrapped/django-admin-bootstrapped',
     license='BSD License',
@@ -31,7 +31,7 @@ setup(
     classifiers=CLASSIFIERS,
     install_requires=[
         'setuptools',
-        'Django>=1.6',
+        'Django>=1.5',
     ],
     test_suite='django_admin_bootstrapped.runtests.runtests',
     packages=find_packages(),
